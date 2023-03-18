@@ -109,7 +109,7 @@ img {
 .section-title h2 {
   text-align: center;
   text-transform: capitalize;
-  font-size: 35px;
+  font-size: 18px;
   color: var(--white-900);
   font-weight: 600;
 }
@@ -127,7 +127,7 @@ img {
   transform: skewY(-3deg);
 }
 p {
-  font-size: 16px;
+  font-size: 12px;
   color: var(--white-800);
 }
 .form-control {
