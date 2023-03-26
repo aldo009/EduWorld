@@ -154,7 +154,7 @@ p {
 
 /* header */
 .header {
-  background-color: var(--dark-800);
+  background-color: var(--main-color);
   padding: 10px 0;
   position: fixed;
   left: 0;
@@ -179,12 +179,12 @@ p {
   opacity: 0;
 }
 .header #nav-check:focus ~ .nav-toggler {
-  box-shadow: 0 0 10px var(--main-color);
+  box-shadow: 0 0 10px var(--dark-700);
 }
 .header .nav-toggler {
   height: 34px;
   width: 44px;
-  border: 1px solid var(--main-color);
+  border: 1px solid var(--dark-700);
   border-radius: 4px;
   cursor: pointer;
   display: none;
@@ -195,7 +195,7 @@ p {
   display: block;
   width: 20px;
   height: 2px;
-  background-color: var(--main-color);
+  background-color: var(--dark-700);
   position: relative;
 }
 .header #nav-check:checked ~ .nav-toggler span {
@@ -209,7 +209,7 @@ p {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: var(--main-color);
+  background-color: var(--dark-700);
 }
 .header .nav-toggler span::before {
   transform: translateY(-6px);
@@ -232,7 +232,7 @@ p {
 }
 .header .nav ul li a {
   font-size: 12px;
-  color: var(--white-900);
+  color: var(--dark-800);
   display: block;
   padding: 10px 0;
   text-transform: capitalize;
